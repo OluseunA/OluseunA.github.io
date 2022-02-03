@@ -1,0 +1,109 @@
+h1,h2,h3,h4,h5{
+    color: slategray;
+}
+
+.home{
+    text-align: center;
+}
+
+p {    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.employment{
+    color: slategray;
+}
+
+strong{
+    color: darkcyan;
+}
+
+
+
+body{
+    background-color: wheat;
+    /*background-image: url("informaticsVennDiagram.jpg");*/
+    /*background-repeat: no-repeat;*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* to differentiate between different classes to display different images in the background depending on the page */
+.informatics1{
+    background-image: url("informaticsJigsaw.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.right_img {
+    float: right;    
+    width: 400px;    
+    padding: 10px;
+  }
+
+.goals_img {
+    float: right;    
+    width: 300px;    
+    padding: 10px;
+  }
+
+/* Formatting Lists */
+ul.circle{
+    list-style-type: circle;
+}
+
+ol.alpha{
+    list-style-type:lower-alpha;
+}
+
+/**** Formatting for tables ****/
+table{    
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+    border: 1px solid grey;    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: slategray;  
+}
+
+td{
+    text-align: center;
+    border: 1px solid grey;    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+/**************** Navigation bar ****************/
+/* Top navigation bar */
+.topnav {
+    background-color: slategray;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #7b5a7e;
+    color: white;
+  }
+
+/* Dotted red border */
+hr.dotted {
+    border-top: 1px dotted rgb(14, 61, 107);
+  }
+
+
